@@ -37,3 +37,7 @@ echo "   $DAILY_FILE"
 echo ""
 echo "Do this NOW before responding to anything else."
 echo "=============================="
+
+# Auto-extract facts from daily log in the background (non-blocking)
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+bash "$SCRIPT_DIR/consolidate.sh" &

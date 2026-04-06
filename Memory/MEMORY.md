@@ -15,7 +15,7 @@ _Nothing tracked yet._
 
 ## Key Decisions
 
-_Nothing recorded yet._
+- Decided to use consolidate.sh + claude --print (Haiku) for auto-extracting long-lived facts from daily logs into MEMORY.md. Triggered at PreCompact time and via daily cron.
 
 ## Lessons Learned
 
