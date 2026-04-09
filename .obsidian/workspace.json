@@ -4,29 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9c058be718589aec",
+        "id": "d6441f16cb754498",
         "type": "tabs",
-        "dimension": 36.99238578680203,
         "children": [
           {
-            "id": "e26817a0aba92a87",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f4e281201b7a8cec",
-        "type": "tabs",
-        "dimension": 63.00761421319797,
-        "children": [
-          {
-            "id": "22a0421eef501d3f",
+            "id": "1bf302db07ee8358",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -92,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "555521fe8c78aff3",
@@ -194,8 +176,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "22a0421eef501d3f",
+  "active": "1bf302db07ee8358",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Content/tweets/claudeCodeMemory.png",
+    "Content/tweets",
+    "Content",
+    "Memory/daily/2026-04-09.md",
+    "second-brain-architecture.png",
+    "Memory/daily/2026-04-08.md",
     "Memory/daily/2026-04-04.md",
     "Memory/daily",
     "Memory/MEMORY.md",
