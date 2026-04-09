@@ -1,7 +1,16 @@
 #!/bin/bash
 
-MEMORY_DIR="$(cd "$(dirname "$0")/../.." && pwd)/Memory"
+ROOT_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
+MEMORY_DIR="$ROOT_DIR/Memory"
 DAILY_DIR="$MEMORY_DIR/daily"
+
+# Load .env if present
+if [ -f "$ROOT_DIR/.env" ]; then
+  set -a
+  # shellcheck disable=SC1091
+  source "$ROOT_DIR/.env"
+  set +a
+fi
 TODAY="$(date +%Y-%m-%d)"
 DAILY_FILE="$DAILY_DIR/$TODAY.md"
 PENDING_FILE="$MEMORY_DIR/.pending_sessions.txt"

@@ -1,3 +1,5 @@
+.env
+nanobanana-output/
 Memory/daily/
 Memory/.index/
 Memory/.pending_sessions.txt

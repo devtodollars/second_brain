@@ -23,4 +23,14 @@ _Nothing recorded yet._
 
 ## Important Facts
 
-_Nothing recorded yet._
+- Nothing Recorded yet
+
+## Tooling & Integrations
+
+### Nano Banana (Image Generation)
+- **Skill file:** `.claude/skills/nano-banana/SKILL.md` — invoke via `/nano-banana` or automatically when image generation is needed
+- **How it works:** Uses `gemini` CLI (v0.37.0) + nanobanana extension at `~/.gemini/extensions/nanobanana/`
+- **API key:** `GEMINI_API_KEY` stored in `.env` (gitignored), auto-loaded at session start via `session-start.sh`
+- **Billing:** Google Cloud billing must be enabled on the project tied to the API key (free tier quota is too low)
+- **Output:** Extension hardcodes output to `nanobanana-output/` (can't be changed without rebuilding) — SKILL.md moves files to `Content/images/` after generation
+- **Model:** Default is `gemini-2.5-flash-image`; set `NANOBANANA_MODEL` env var to override
